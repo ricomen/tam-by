@@ -1,0 +1,31 @@
+header.page-header  
+  .page-header__top
+    .container.page-header__top--flex
+      a.page-header__notice(href="/" data-count="10") Y
+      nav.main-nav
+        button.main-nav__trigger(type="button")
+          span
+        ul.main-nav__list
+          li.main-nav__item
+            a(href="#") Компании
+
+          li.main-nav__item
+            a(href="#") Скидки
+
+          li.main-nav__item.main-nav__item--active
+            a Заказы
+          li.main-nav__item
+            a(href="#") Советы
+
+      a.page-header__logo(href="/")
+        img(src="img/logo.svg" width="118" height="21" alt="Tam.By")
+
+      .search
+        input(type="text" class="search__field" placeholder="Найти компанию или услуги")  
+        .search__location
+          input(type="text" readonly placeholder="Минск")
+        input(type="button")
+
+
+  .page-header__bottom
+    .container

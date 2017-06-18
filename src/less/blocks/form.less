@@ -1,0 +1,71 @@
+.search {   
+  position: relative;
+  margin-top: 15px;
+  font-size: 0;
+  height: 40px;
+  display: inline-block;
+  &::after {
+    position: absolute;
+    content: '';    
+    top: 0;
+    right: -15;
+    border: 20px solid transparent;
+    border-left: 15px solid #fff;   
+  }
+
+  input {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    height: 100%;
+    box-sizing: border-box;
+  }
+  
+  input[type="button"] {
+    width: 40px;
+    background-color: #fff;    
+    background-image: url("../img/svg/search.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  &__field {
+    width: 280px;
+    padding-left: 18px;
+    padding-right: 18px;
+    transition: 0.25s;
+    @media (max-width: 1100px) {
+      width: 200px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }//field
+
+  &__location {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+    &::before {
+      position: absolute;
+      content: '';
+      left: 9px;
+      top: 50%;
+      margin-top: -7px;
+      width: 16px;
+      height: 14px;
+      background-image: url("../img/svg/location.svg");
+      background-repeat: no-repeat;
+    }
+    input {
+      padding-left: 34px;
+      padding-right: 10px;
+      width: 132px;      
+      border-left: 1px solid #ccc;
+      border-right: 1px solid #ccc;
+    }
+  }//locarion
+}
