@@ -1,0 +1,51 @@
+.promo {
+  background: url("../img/bg/banner-bg.jpg") no-repeat center;
+  background-size: cover;
+  min-height: 500px;
+  text-align: center;
+  padding-top: 170px;
+  padding-bottom: 30px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  @media @tablet {
+    min-height: 400px;
+  }
+  @media @small {
+    padding-top: 100px;
+  }
+
+  &__title {
+    margin-bottom: 22px;    
+    font-size: 45px;
+    line-height: 50px;
+    color: #fff;
+    @media @small {
+      font-size: 25px;
+      line-height: 30px;
+    }
+  }//title
+
+  &__text {
+    margin: 0;
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+    @media @small {
+      font-size: 16px;
+      line-height: 22px;
+    }
+  }//text
+
+  &__btn {
+    margin-right: 10px;
+    &:last-child {
+      margin-right: 0 5px;
+    }
+    @media @small {      
+      margin-bottom: 10px;
+    }
+  }
+
+}

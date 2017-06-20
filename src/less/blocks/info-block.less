@@ -1,6 +1,17 @@
 .info-block {
   padding: 60px 0 75px;
   text-align: center;
+  background: #fff;
+  &--grey-bg {
+    background: #f8f8f8;
+  }
+  &__inner {
+    padding: 0 30px;
+    box-sizing: border-box;
+    @media @tablet {
+      padding: 0 20px;
+    }
+  }
 
   &__title {
     font-size: 30px;
@@ -81,5 +92,9 @@
 
   &__link {
     color: @base-blue;
+  }
+  &__link--more {
+    display: inline-block;
+    margin-top: 20px;
   }
 }
