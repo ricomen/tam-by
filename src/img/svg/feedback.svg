@@ -1,0 +1,29 @@
+<svg id="feedback" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="207" height="147" viewBox="0 0 207 147">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        fill: #ea4953;
+        fill-rule: evenodd;
+      }
+    </style>
+    <filter id="filter" x="0" y="0" width="207" height="147" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="1" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="2"/>
+      <feFlood result="flood" flood-color="#010101" flood-opacity="0.05"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <rect id="Rectangle_13_copy_30" data-name="Rectangle 13 copy 30" class="cls-1" x="3" y="2" width="200" height="140"/>
+  <rect id="Rectangle_13_copy_30-2" data-name="Rectangle 13 copy 30" x="23" y="42" width="50" height="6"/>
+  <path id="Shape_5_copy_6" data-name="Shape 5 copy 6" class="cls-2" d="M1004.5,2269.25l4.63,2.75-1.23-5.18,4.1-3.48-5.39-.45-2.11-4.89-2.11,4.89-5.39.45,4.1,3.48-1.235,5.18Zm17,0,4.63,2.75-1.23-5.18,4.1-3.48-5.39-.45-2.11-4.89-2.11,4.89-5.39.45,4.1,3.48-1.23,5.18Zm17,0,4.63,2.75-1.23-5.18,4.1-3.48-5.39-.45-2.11-4.89-2.11,4.89-5.39.45,4.1,3.48-1.23,5.18Zm17,0,4.63,2.75-1.23-5.18,4.1-3.48-5.39-.45-2.11-4.89-2.11,4.89-5.39.45,4.1,3.48-1.23,5.18Zm17,0,4.63,2.75-1.23-5.18,4.1-3.48-5.39-.45-2.11-4.89-2.11,4.89-5.39.45,4.1,3.48-1.23,5.18Z" transform="translate(-897 -2221)"/>
+  <rect id="Rectangle_13_copy_30-3" data-name="Rectangle 13 copy 30" x="23" y="68" width="30" height="6"/>
+  <path id="Shape_5_copy_6-2" data-name="Shape 5 copy 6" class="cls-2" d="M1004.5,2295.25l4.63,2.75-1.23-5.18,4.1-3.49-5.39-.44-2.11-4.89-2.11,4.89-5.39.44,4.1,3.49-1.235,5.18Zm17,0,4.63,2.75-1.23-5.18,4.1-3.49-5.39-.44-2.11-4.89-2.11,4.89-5.39.44,4.1,3.49-1.23,5.18Zm17,0,4.63,2.75-1.23-5.18,4.1-3.49-5.39-.44-2.11-4.89-2.11,4.89-5.39.44,4.1,3.49-1.23,5.18Zm17,0,4.63,2.75-1.23-5.18,4.1-3.49-5.39-.44-2.11-4.89-2.11,4.89-5.39.44,4.1,3.49-1.23,5.18Zm17,0,4.63,2.75-1.23-5.18,4.1-3.49-5.39-.44-2.11-4.89-2.11,4.89-5.39.44,4.1,3.49-1.23,5.18Z" transform="translate(-897 -2221)"/>
+  <rect id="Rectangle_13_copy_30-4" data-name="Rectangle 13 copy 30" x="23" y="94" width="50" height="6"/>
+  <path id="Shape_5_copy_6-3" data-name="Shape 5 copy 6" class="cls-2" d="M1004.5,2321.25l4.63,2.75-1.23-5.18,4.1-3.48-5.39-.45-2.11-4.89-2.11,4.89-5.39.45,4.1,3.48-1.235,5.18Zm17,0,4.63,2.75-1.23-5.18,4.1-3.48-5.39-.45-2.11-4.89-2.11,4.89-5.39.45,4.1,3.48-1.23,5.18Zm17,0,4.63,2.75-1.23-5.18,4.1-3.48-5.39-.45-2.11-4.89-2.11,4.89-5.39.45,4.1,3.48-1.23,5.18Zm17,0,4.63,2.75-1.23-5.18,4.1-3.48-5.39-.45-2.11-4.89-2.11,4.89-5.39.45,4.1,3.48-1.23,5.18Zm17,0,4.63,2.75-1.23-5.18,4.1-3.48-5.39-.45-2.11-4.89-2.11,4.89-5.39.45,4.1,3.48-1.23,5.18Z" transform="translate(-897 -2221)"/>
+</svg>

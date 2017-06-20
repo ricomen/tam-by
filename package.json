@@ -14,6 +14,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^7.1.1",
+    "bootstrap": "^3.3.7",
     "browser-sync": "^2.18.12",
     "css-mqpacker": "^6.0.1",
     "cssgrace": "^3.0.0",

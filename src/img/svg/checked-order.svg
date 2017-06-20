@@ -1,0 +1,31 @@
+<svg id="checked-order" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="207" height="147" viewBox="0 0 207 147">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        filter: url(#filter);
+      }
+      .cls-2, .cls-4 {
+        fill: #93b74a;
+      }
+      .cls-3 {
+        opacity: 0.8;
+      }
+      .cls-5 {
+        opacity: 0.2;
+      }
+    </style>
+    <filter id="filter" x="0" y="0" width="207" height="147" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="1" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="2"/>
+      <feFlood result="flood" flood-color="#010101" flood-opacity="0.05"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <rect id="Rectangle_13_copy_19" data-name="Rectangle 13 copy 19" class="cls-1" x="3" y="2" width="200" height="140"/>
+  <path id="Rectangle_13_copy_31" data-name="Rectangle 13 copy 31" class="cls-2" d="M1223.35,388.06l32.71-32.708,4.25,4.242L1227.6,392.3Zm4.25,4.243-19.91-19.9,4.24-4.236,19.9,19.9Z" transform="translate(-1127 -292)"/>
+  <rect id="Rectangle_13_copy_25" data-name="Rectangle 13 copy 25" class="cls-3" x="13" y="12" width="120" height="6"/>
+  <rect id="Rectangle_13_copy_25-2" data-name="Rectangle 13 copy 25" class="cls-4" x="173" y="12" width="20" height="6"/>
+  <rect id="Rectangle_13_copy_25-3" data-name="Rectangle 13 copy 25" class="cls-5" x="13" y="26" width="40" height="6"/>
+</svg>

@@ -1,6 +1,6 @@
 header.page-header  
   .page-header__top
-    .container.page-header__top--flex
+    .container.page-header__top--clearfix
       a.page-header__notice(href="/" data-count="10") Y
       nav.main-nav
         button.main-nav__trigger(type="button")
@@ -19,7 +19,6 @@ header.page-header
 
       a.page-header__logo(href="/")
         img(src="img/logo.svg" width="118" height="21" alt="Tam.By")
-
       .search
         input(type="text" class="search__field" placeholder="Найти компанию или услуги")  
         .search__location

@@ -1,0 +1,30 @@
+<svg id="your-offer" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="207" height="147" viewBox="0 0 207 147">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        fill-rule: evenodd;
+        opacity: 0.2;
+      }
+
+      .cls-3 {
+        fill: #93b74a;
+      }
+    </style>
+    <filter id="filter" x="0" y="0" width="207" height="147" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="1" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="2"/>
+      <feFlood result="flood" flood-color="#010101" flood-opacity="0.05"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <rect id="Rectangle_13_copy_18" data-name="Rectangle 13 copy 18" class="cls-1" x="3" y="2" width="200" height="140"/>
+  <path id="Rectangle_13_copy_27" data-name="Rectangle 13 copy 27" class="cls-2" d="M750,304H930.009v78H750V304Z" transform="translate(-737 -292)"/>
+  <rect id="Rectangle_13_copy_29" data-name="Rectangle 13 copy 29" class="cls-3" x="13" y="100" width="50" height="6"/>
+  <rect id="Rectangle_13_copy_30" data-name="Rectangle 13 copy 30" class="cls-3" x="13" y="116" width="50" height="16"/>
+</svg>

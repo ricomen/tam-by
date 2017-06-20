@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="207" height="147" viewBox="0 0 207 147">
+  <defs>
+    <style>
+      .cls-1, .cls-4, .cls-5, .cls-6 {
+        fill: #fff;
+      }
+
+      .cls-1 {
+        filter: url(#filter);
+      }
+
+      .cls-2, .cls-3 {
+        fill: #93b74a;
+      }
+
+      .cls-3 {
+        filter: url(#filter-2);
+      }
+
+      .cls-5 {
+        
+      }
+
+      .cls-6 {
+        filter: url(#filter-3);
+      }
+    </style>
+    <filter id="filter" x="0" y="0" width="207" height="47" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="1" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="2"/>
+      <feFlood result="flood" flood-color="#010101" flood-opacity="0.05"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+    <filter id="filter-2" x="0" y="50" width="207" height="47" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="1" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="2"/>
+      <feFlood result="flood" flood-color="#010101" flood-opacity="0.05"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+    <filter id="filter-3" x="0" y="100" width="207" height="47" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="1" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="2"/>
+      <feFlood result="flood" flood-color="#010101" flood-opacity="0.05"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <rect id="Rectangle_13_copy_30" data-name="Rectangle 13 copy 30" class="cls-1" x="3" y="2" width="200" height="40"/>
+  <rect id="Rectangle_13_copy_30-2" data-name="Rectangle 13 copy 30" x="13" y="12" width="120" height="6"/>
+  <rect id="Rectangle_13_copy_30-3" data-name="Rectangle 13 copy 30" class="cls-2" x="173" y="12" width="20" height="6"/>
+  <rect id="Rectangle_13_copy_30-4" data-name="Rectangle 13 copy 30" x="13" y="26" width="40" height="6"/>
+  <rect id="Rectangle_13_copy_30-5" data-name="Rectangle 13 copy 30" class="cls-3" x="3" y="52" width="200" height="40"/>
+  <rect id="Rectangle_13_copy_30-6" data-name="Rectangle 13 copy 30" class="cls-4" x="13" y="62" width="80" height="6"/>
+  <path id="Rectangle_13_copy_32" data-name="Rectangle 13 copy 32" class="cls-5" d="M1075.35,1934.06l12.71-12.71,4.25,4.24-12.71,12.71Zm4.25,4.24-9.91-9.9,4.24-4.24,9.9,9.91Z" transform="translate(-897 -1860)"/>
+  <rect id="Rectangle_13_copy_30-7" data-name="Rectangle 13 copy 30" class="cls-4" x="13" y="76" width="40" height="6"/>
+  <rect id="Rectangle_13_copy_30-8" data-name="Rectangle 13 copy 30" class="cls-6" x="3" y="102" width="200" height="40"/>
+  <rect id="Rectangle_13_copy_30-9" data-name="Rectangle 13 copy 30" x="13" y="112" width="120" height="6"/>
+  <rect id="Rectangle_13_copy_30-10" data-name="Rectangle 13 copy 30" class="cls-2" x="173" y="112" width="20" height="6"/>
+  <rect id="Rectangle_13_copy_30-11" data-name="Rectangle 13 copy 30" x="13" y="126" width="40" height="6"/>
+</svg>
